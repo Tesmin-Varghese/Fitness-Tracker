@@ -9,11 +9,11 @@ Installation
 Clone the repository to your local machine.
 Ensure Python 3.x is installed.
 Install the required Python packages:
-Copy code
+
 pip install opencv-python numpy
 Usage
 Run the program by executing the Python script.
-Copy code
+
 python squat_tracker.py
 The program will read the input video file specified within the script (squat.mp4 in this case).
 It will process each frame, detect poses, and track squat repetitions.
